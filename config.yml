@@ -1,4 +1,4 @@
-token: "lip_LxOdszffnb7u1m35raeW"    # Lichess OAuth2 Token.
+token: "lip_e2DkClgiINZlDuz2RWHA"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -53,17 +53,17 @@ option name nodestime type spin : 0
 option name UCI_Chess960 type check : false
 option name UCI_AnalyseMode type check : false
 option name UCI_LimitStrength type check : false
-option name UCI_Elo type spin : 2850
+option name UCI_Elo type spin : 4000
 option name UCI_ShowWDL type check : false
 option name SyzygyPath type string : <empty>
 option name SyzygyProbeDepth type spin : 100
 option name Syzygy50MoveRule type check : true
 option name SyzygyProbeLimit type spin : 7
 option name Use NNUE type check : true
-#    go_commands:             # additional options to pass to the UCI go command
+     go_commands:             # additional options to pass to the UCI go command
 #      nodes: 5000               # Search so many nodes only.
 #      depth: 20               # Search depth ply only.
-#      movetime: 1         # Integer. Search exactly movetime milliseconds.
+       movetime: 1         # Integer. Search exactly movetime milliseconds.
 #  xboard_options:            # arbitrary xboard options passed to the engine
 #    cores: "4"
 #    memory: "4096"
